@@ -1,3 +1,3 @@
-# Sigma Cartographer
+# Psi Cartographer
 
-**Map exporting tool for KSP**
+**Map exporting tool for KSP derived from Sigma Cartographer**
