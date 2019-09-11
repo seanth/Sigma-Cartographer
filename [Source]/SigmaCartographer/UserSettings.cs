@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEngine;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     internal class UserSettings : MonoBehaviour
@@ -17,9 +17,9 @@ namespace SigmaCartographerPlugin
             }
         }
 
-        static string folder = "GameData/Sigma/Cartographer/";
+        static string folder = "GameData/Psi-Cartographer/";
         static string file = "Settings";
-        internal static string nodeName = "SigmaCartographer";
+        internal static string nodeName = "PsiCartographer";
 
         void Awake()
         {
@@ -59,7 +59,7 @@ namespace SigmaCartographerPlugin
                         "//     tile = 1024     // the width of one﻿ tile          (default = 1024)",
                         "//     flipV = false   // flip the image vertically      (default = false)",
                         "//     flipH = false   // flip the image horizontally    (default = false)",
-                        "//     exportFolder = Sigma/Cartographer/Maps        // path for the export folder",
+                        "//     exportFolder = Psi-Cartographer/Maps        // path for the export folder",
                         "//     leaflet = false // export in folders divided by columns and rows (default = false)",
                         "//",
                         "//     heightMap = false       // export height map        (default = false)",
@@ -73,7 +73,7 @@ namespace SigmaCartographerPlugin
                         "//     satelliteMap = false    // if true, forces colorMap to be true  (default = false)",
                         "//     satelliteBiome = false  // if true, forces biomeMap to be true  (default = false)",
                         "//",
-                        "//     //To have Sigma Cartographer export images only if they don't exist:",
+                        "//     //To have Psi Cartographer export images only if they don't exist:",
                         "//     overwriteHeightMap = false      //(default = true)",
                         "//     overwriteNormalMap = false      //(default = true)",
                         "//     overwriteSlopeMap = false       //(default = true)",

@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     internal static class PlanetRenderer
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     internal static class Utility
     {
@@ -110,7 +110,7 @@ namespace SigmaCartographerPlugin
 
         internal static bool Path(string s, out string path)
         {
-            path = "GameData/Sigma/Cartographer/PluginData/" + MapGenerator.body.transform.name + "/";
+            path = "GameData/Psi-Cartographer/PluginData/" + MapGenerator.body.transform.name + "/";
 
             if (string.IsNullOrEmpty(s)) return false;
 

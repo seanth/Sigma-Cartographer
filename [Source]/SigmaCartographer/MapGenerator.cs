@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Reflection;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     internal static class MapGenerator
     {

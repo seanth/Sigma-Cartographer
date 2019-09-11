@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     public class Version : MonoBehaviour
@@ -10,7 +10,7 @@ namespace SigmaCartographerPlugin
 
         void Awake()
         {
-            UnityEngine.Debug.Log("[SigmaLog] Version Check:   Sigma Cartographer v" + number);
+            UnityEngine.Debug.Log("[PsiLog] Version Check:   Psi Cartographer v" + number);
         }
     }
 }

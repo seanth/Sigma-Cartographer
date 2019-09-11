@@ -2,7 +2,7 @@ using Kopernicus;
 using Kopernicus.Configuration;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     [ParserTargetExternal("Body", "SigmaDimensions", "Kopernicus")]
     class SettingsLoader : BaseLoader, IParserEventSubscriber

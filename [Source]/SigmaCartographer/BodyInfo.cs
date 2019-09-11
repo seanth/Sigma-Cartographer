@@ -4,7 +4,7 @@ using System.Linq;
 using System.IO;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     internal static class BodyInfo
     {
@@ -176,7 +176,7 @@ namespace SigmaCartographerPlugin
                 text[14] = "Water Coverage = " + Math.Round(100 * underwater, 2) + "%";
             }
 
-            string path = "GameData/Sigma/Cartographer/PluginData/" + body.transform.name + "/";
+            string path = "GameData/Psi-Cartographer/PluginData/" + body.transform.name + "/";
 
             Directory.CreateDirectory(path);
             File.WriteAllLines(path + "Info.txt", text);

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace SigmaCartographerPlugin
+namespace PsiCartographerPlugin
 {
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
     class Cartographer : MonoBehaviour
