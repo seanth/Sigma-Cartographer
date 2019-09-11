@@ -1,4 +1,4 @@
-﻿namespace SigmaCartographerPlugin
+﻿namespace PsiCartographerPlugin
 {
     internal static class Debug
     {

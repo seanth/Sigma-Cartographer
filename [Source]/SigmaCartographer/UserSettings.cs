@@ -18,7 +18,7 @@ namespace PsiCartographerPlugin
         }
 
         static string folder = "GameData/Psi-Cartographer/";
-        static string file = "Settings";
+        static string file = "Psi-Cartographer Settings";
         internal static string nodeName = "PsiCartographer";
 
         void Awake()
