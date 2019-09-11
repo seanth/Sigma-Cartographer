@@ -3,6 +3,7 @@ Sigma Cartographer by Sigma88 is released under the following license:
 
 All Rights Reserved
 
+Psi Cartographer is released and distributed with permission of Sigma88
 
 For more info visit the GitHub Repository:
 https://github.com/Sigma88/Sigma-Cartographer
