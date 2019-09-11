@@ -1,3 +1,11 @@
+**Psi Cartographer 0.4.1**
+
+- Fork of Sigma Cartographer, made with permission of Sigma88
+- Copyright Sigma88, All Rights Reserved. Modified and distributed with permission
+- Added documentation on setting written to the default configuration file
+- Added file checks allowing user to say whether existing maps should be overwritten
+
+
 **v0.4.0**
 
 - Added Debug Tools
